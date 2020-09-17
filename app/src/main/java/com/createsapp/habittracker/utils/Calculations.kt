@@ -8,7 +8,7 @@ object Calculations {
 
     fun calculateTimeBetweenDate(startDate: String): String {
         val endDate = timeStampToString(System.currentTimeMillis())
-        val sdf = SimpleDateFormat("dd/MM/yyyy hh:mm")
+        val sdf = SimpleDateFormat("dd/MM/yyyy h:mm")
         val date1 = sdf.parse(startDate)
         val date2 = sdf.parse(startDate)
 
